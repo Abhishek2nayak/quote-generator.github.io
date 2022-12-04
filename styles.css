@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;500;600&display=swap");
+
+:root {
+  --font-bold: Anton, Montserrat, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  background-color: rgb(18, 42, 113);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1013%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(5%2c 5%2c 5%2c 1)'%3e%3c/rect%3e%3cpath d='M909.088%2c378.879C925.43%2c378.527%2c939.981%2c370.101%2c948.963%2c356.444C959.077%2c341.065%2c965.547%2c322.045%2c957.281%2c305.598C948.299%2c287.726%2c929.058%2c275.983%2c909.088%2c277.107C890.592%2c278.148%2c878.125%2c294.168%2c869.454%2c310.539C861.46%2c325.632%2c857.553%2c343.455%2c866.121%2c358.229C874.665%2c372.962%2c892.061%2c379.246%2c909.088%2c378.879' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1150.9368795522792 229.54878972934705L1248.47016020606 349.9923606762359 1368.9137311529487 252.45908002245517 1271.380450499168 132.0155090755663z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M646.624%2c171.492C674.82%2c169.107%2c700.282%2c156.146%2c715.417%2c132.237C731.81%2c106.34%2c740.519%2c73.698%2c725.407%2c47.034C710.136%2c20.089%2c677.595%2c11.084%2c646.624%2c10.857C615.161%2c10.626%2c583.583%2c19.897%2c565.812%2c45.862C545.496%2c75.544%2c534.757%2c115.62%2c554.216%2c145.871C572.75%2c174.685%2c612.486%2c174.379%2c646.624%2c171.492' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M865.405%2c175.622C893.326%2c174.096%2c919.549%2c163.268%2c935.119%2c140.04C952.844%2c113.596%2c963.266%2c80.028%2c948.325%2c51.917C932.66%2c22.443%2c898.782%2c8.562%2c865.405%2c8.876C832.606%2c9.184%2c802.1%2c25.375%2c785.144%2c53.452C767.582%2c82.534%2c762.459%2c120.063%2c781.113%2c148.457C798.486%2c174.901%2c833.812%2c177.349%2c865.405%2c175.622' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1150.7769894132089 560.5481728164043L1067.3914355170546 460.98058558426015 1026.7062973993495 566.9689939902505z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1361.0619901425862 326.6804165279041L1254.2529104071782 426.28149471765244 1353.8539885969265 533.0905744530604 1460.6630683323347 433.48949626331205z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M478.37130986006775 494.5637953220959L579.7818692658592 550.7765863136148 635.9946602573781 449.3660269078233 534.5841008515866 393.1532359163045z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M418.20747538552166 472.89513155269606L560.9126360348605 480.37399211455755 568.3914965967219 337.6688314652188 425.68633594738316 330.1899709033572z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1158.168194258567 285.00311556329774L1247.8282406117644 403.98601578255443 1277.1510944778236 195.34306921010023z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M383.35806411983265 110.25579921906795L398.2090604648638 216.66183234358382 473.2146628003297 160.1410569232939z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M256.6906342768104 85.93264315800562L107.58705954345672 16.40450440155668 38.058920787007764 165.50807913491036 187.16249552036146 235.03621789135929z' fill='rgba(12%2c 105%2c 148%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1013'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  gap: 25px;
+  background-size: cover;
+}
+
+.center {
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid white;
+  font-family: Montserrat, sans-serif;
+  padding-bottom: 2px;
+  color: #e99e1b;
+}
+.head {
+  font-family: var(--font-bold);
+  letter-spacing: 3px;
+  color: #00fff6;
+  font-size: 3rem;
+}
+
+.quote-container {
+  max-width: 900px;
+  width: auto;
+  background-color: #191717;
+  border-radius: 15px;
+  padding: 30px 40px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  box-shadow: 0 4px 4px 4px #000000;
+}
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 3.5rem;
+  color: #e99e1b;
+}
+.short-quote {
+  font-size: 2rem;
+}
+.long-quote {
+  font-size: 1.2rem;
+}
+#quote {
+  font-size: 1.8rem;
+}
+
+.quote-author {
+  font-size: 2rem;
+  margin-top: 15px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#next-btn {
+  float: right;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background-color: #e99e1b;
+  cursor:pointer;
+  transition: 0.5s all ease;
+}
+.button-container {
+  display: flex;
+  gap: 30px;
+}
+.button-container .btn {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
+  color: cyan;
+  transition: 0.5s ease;
+}
+
+/* ---hover css------- */
+
+.button-container .btn:hover .fa-twitter {
+  color: #1da1f2;
+}
+
+#next-btn:active {
+  background-color: #00fff6;
+  border:2px solid #000000;
+}
+
+/* ----loader  */
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: rotate 1s infinite;
+  height: 50px;
+  width: 50px;
+  margin: auto auto;
+  transform: translate(-50%, -50%);
+}
+
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.loader:before {
+  animation: ball1 1s infinite;
+  background-color: #cb2025;
+  box-shadow: 30px 0 0 #f8b334;
+  margin-bottom: 10px;
+}
+.loader:after {
+  animation: ball2 1s infinite;
+  background-color: #00a096;
+  box-shadow: 30px 0 0 #97bf0d;
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
+    -moz-transform: rotate(0deg) scale(0.8);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) scale(1.2);
+    -moz-transform: rotate(360deg) scale(1.2);
+  }
+  100% {
+    -webkit-transform: rotate(720deg) scale(0.8);
+    -moz-transform: rotate(720deg) scale(0.8);
+  }
+}
+
+@keyframes ball1 {
+  0% {
+    box-shadow: 30px 0 0 #f8b334;
+  }
+  50% {
+    box-shadow: 0 0 0 #f8b334;
+    margin-bottom: 0;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+  }
+  100% {
+    box-shadow: 30px 0 0 #f8b334;
+    margin-bottom: 10px;
+  }
+}
+
+@keyframes ball2 {
+  0% {
+    box-shadow: 30px 0 0 #97bf0d;
+  }
+  50% {
+    box-shadow: 0 0 0 #97bf0d;
+    margin-top: -20px;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+  }
+  100% {
+    box-shadow: 30px 0 0 #97bf0d;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .head {
+    font-size: 2rem;
+  }
+  .quote-container {
+    margin: 0 15px;
+  }
+  #quote {
+    font-size: 1.4rem;
+  }
+  .fa-quote-left,
+  .fa-quote-right {
+    font-size: 2rem;
+  }
+  .quote-author {
+    font-size: 1.8rem;
+  }
+}
